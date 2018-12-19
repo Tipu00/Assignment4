@@ -36,3 +36,29 @@ Void BubbleSort::BubbleSort(int *array , int n);
         }
     }
 }
+void BubbleSort:: BubbleSortVector(vector<int> & data)
+{
+    cout<<"BubbleSort Using Array :"<<endl;
+    int num=0;
+    inr temp;
+    bool swapped=true;
+    while(swapped)
+    {
+        swapped= false;
+        num++;
+        for(int index=0;index<data.size()-num;++index)
+        {
+            if(data[index]>data[index+1])
+            {
+                temp=data[index];
+                data[index]=data[index+1];
+                data[index+1]=temp;
+
+                swapped=true;
+                for(std::vector<int>::iterator val==data.begin();val !=data.end();val++)
+                std::cout<< *val<<" ";
+                cout<<" "<<endl;
+            }
+        }
+    }
+}
