@@ -7,5 +7,6 @@ class BubbleSort
      BubbleSort();
     ~BubbleSort();
     void BubbleSort(int *array, int n);
+    void test();
 };
 #endif
