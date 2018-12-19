@@ -1,11 +1,12 @@
 #ifndef INSERTIONSORT_H_INCLUDED
 #define INSERTIONSORT_H_INCLUDED
+#include<vector>
 class InsertionSort
 {
-    public:
+  public:
     InsertionSort();
     ~InsertionSort();
-    void  InsertionSort(int arra[],int arra_size);
-    void InsertionSortVector(std::vector<int>& data)
+    void  InsertionSorter(int arra[],int arra_size);
+    void  InsertionSorterVector(std::vector<int>& data);
 };
 #endif
