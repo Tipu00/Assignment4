@@ -7,6 +7,6 @@ class BubbleSort
      BubbleSort();
     ~BubbleSort();
     void BubbleSort(int *array, int n);
-    void test();
+    void BubbleSortVector(std::vector<int> & data);
 };
 #endif
